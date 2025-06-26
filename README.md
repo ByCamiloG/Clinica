@@ -57,10 +57,6 @@ Permite una experiencia de usuario controlada y mensajes claros.
 # 📄 Archivos Generados
 Durante la ejecución, el sistema genera y utiliza los siguientes archivos:
 
-## 📄 Archivos Generados
-
-Durante la ejecución, el sistema genera y utiliza los siguientes archivos:
-
 | Archivo        | Propósito                                               |
 |----------------|---------------------------------------------------------|
 | `datos.ser`    | Archivo binario con la información completa             |
