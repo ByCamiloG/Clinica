@@ -69,10 +69,10 @@ Durante la ejecución, el sistema genera y utiliza los siguientes archivos:
 
 El programa contempla los siguientes errores:
 
-## - IOException: errores al leer o escribir archivos.
-## - ClassNotFoundException: errores durante la deserialización.
-## - CampoVacioException: campos vacíos en login o registro.
-## - UsuarioNoEncontradoException: credenciales inválidas.
+- IOException: errores al leer o escribir archivos.
+- ClassNotFoundException: errores durante la deserialización.
+- CampoVacioException: campos vacíos en login o registro.
+- UsuarioNoEncontradoException: credenciales inválidas.
 
 ## ⚙️ Compilación y Ejecución
 
@@ -80,7 +80,10 @@ El programa contempla los siguientes errores:
 
 ```bash
 javac -d bin src/**/*.java
+```
 
+### Para ejecutar el proyecto:
+```bash
 java -cp bin Proyecto.Main
-
+```
 
