@@ -57,13 +57,17 @@ Permite una experiencia de usuario controlada y mensajes claros.
 # 📄 Archivos Generados
 Durante la ejecución, el sistema genera y utiliza los siguientes archivos:
 
-Archivo             Propósito
+## 📄 Archivos Generados
 
-datos.ser	          Archivo binario con la información completa
-datos.txt	          Historial de consultas médicas
-pacientes.txt	      Lista legible de pacientes registrados
-medicos.txt	        Lista legible de médicos y sus especialidades
-usuarios.txt	      Lista de usuarios autorizados con rol incluido
+Durante la ejecución, el sistema genera y utiliza los siguientes archivos:
+
+| Archivo        | Propósito                                               |
+|----------------|---------------------------------------------------------|
+| `datos.ser`    | Archivo binario con la información completa             |
+| `datos.txt`    | Historial de consultas médicas                          |
+| `pacientes.txt`| Lista legible de pacientes registrados                  |
+| `medicos.txt`  | Lista legible de médicos y sus especialidades           |
+| `usuarios.txt` | Lista de usuarios autorizados con rol incluido          |
 
 # 🛡️ Manejo de Errores
 
