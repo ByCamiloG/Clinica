@@ -5,7 +5,7 @@ El sistema hace uso de la interfaz Serializable, archivos .ser y .txt, y excepci
 
 # Estructura del Proyecto
 
-El proyecto está organizado en varios paquetes según la responsabilidad:
+## El proyecto está organizado en varios paquetes según la responsabilidad:
 
 - Model: Contiene las clases Clinica, Paciente, Medico, Consulta, Usuario, y GestorUsuarios.
 
@@ -17,39 +17,39 @@ El proyecto está organizado en varios paquetes según la responsabilidad:
 
 - excepciones: Define errores específicos mediante clases como CampoVacioException y UsuarioNoEncontradoException.
 
- # Componentes Principales
+ ## Componentes Principales
  
- 1. Sistema de Login (LoginFrame)
+ ### 1. Sistema de Login (LoginFrame)
 
 - Permite el acceso al sistema con autenticación por usuario y contraseña.
 - Soporta roles (admin, medico, administrativo) que controlan el acceso a funciones específicas.
 - Permite registrar nuevos usuarios con rol definido.
 - Lanza excepciones personalizadas si hay campos vacíos o credenciales incorrectas.
 
-2. Clase Clinica
+### 2. Clase Clinica
 
 - Implementa Serializable para permitir su persistencia.
 - Almacena listas de Paciente, Medico y Consulta.
 - Proporciona métodos para agregar registros y recuperar historial.
 
-3. Clase PersistenciaArchivo
+### 3. Clase PersistenciaArchivo
 
 - Implementa la interfaz IPersistencia para manejar la persistencia de datos:
 
- a) Serialización de Objetos
+#### a) Serialización de Objetos
  Guarda el estado completo de la clínica en un archivo datos.ser.
  Utiliza ObjectOutputStream para la serialización.
 
- b) Deserialización de Objetos
+#### b) Deserialización de Objetos
  Restaura la clínica desde datos.ser si existe.
  Utiliza ObjectInputStream.
 
- c) Escritura en Archivos de Texto
+#### c) Escritura en Archivos de Texto
  datos.txt: Historial completo de todas las consultas.
  pacientes.txt: Lista legible de todos los pacientes registrados.
  medicos.txt: Lista de médicos registrados con especialidades.
 
-4. Manejo de Excepciones Personalizadas
+### 4. Manejo de Excepciones Personalizadas
 CampoVacioException: Lanza error si el usuario deja campos vacíos.
 UsuarioNoEncontradoException: Lanza error si el usuario no existe o la contraseña no coincide.
 Permite una experiencia de usuario controlada y mensajes claros.
@@ -69,7 +69,18 @@ usuarios.txt	      Lista de usuarios autorizados con rol incluido
 
 El programa contempla los siguientes errores:
 
-- IOException: errores al leer o escribir archivos.
-- ClassNotFoundException: errores durante la deserialización.
-- CampoVacioException: campos vacíos en login o registro.
-- UsuarioNoEncontradoException: credenciales inválidas.
+## - IOException: errores al leer o escribir archivos.
+## - ClassNotFoundException: errores durante la deserialización.
+## - CampoVacioException: campos vacíos en login o registro.
+## - UsuarioNoEncontradoException: credenciales inválidas.
+
+## ⚙️ Compilación y Ejecución
+
+### Para compilar el proyecto:
+
+```bash
+javac -d bin src/**/*.java
+
+java -cp bin Proyecto.Main
+
+
