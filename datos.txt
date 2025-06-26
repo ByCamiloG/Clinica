@@ -1,0 +1,7 @@
+Fecha: 2025-06-25 00:55
+Paciente: Ana (123)
+Médico: Dr. López - Pediatría
+Síntomas: Fiebre
+Diagnóstico: Gripe
+Tratamiento: Paracetamol
+----------------------------------------

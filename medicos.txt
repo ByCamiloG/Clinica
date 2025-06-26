@@ -1,0 +1,2 @@
+Nombre: Dr. López - ID: 456 - Especialidad: Pediatría
+Nombre: John Diaz - ID: 1003584968 - Especialidad: Medicina General

@@ -1,0 +1,3 @@
+Nombre: Ana - ID: 123 - Edad: 25
+Nombre: Camilo Gutierrez - ID: 1022923292 - Edad: 22
+Nombre: Sebatian Gutierrez - ID: 100935785 - Edad: 24
