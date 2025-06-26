@@ -1,9 +1,9 @@
-Parcial 2: Sistema de Gestión Clínica con Login, Serialización y Manejo de Archivos
+# Parcial 2: Sistema de Gestión Clínica con Login, Serialización y Manejo de Archivos
 
 Este proyecto en Java implementa un sistema básico de gestión clínica que permite el registro de pacientes y médicos, la asignación de consultas médicas, la visualización de historial clínico, y el control de acceso mediante login con roles.
 El sistema hace uso de la interfaz Serializable, archivos .ser y .txt, y excepciones personalizadas.
 
-Estructura del Proyecto
+# Estructura del Proyecto
 
 El proyecto está organizado en varios paquetes según la responsabilidad:
 
@@ -17,7 +17,7 @@ El proyecto está organizado en varios paquetes según la responsabilidad:
 
 - excepciones: Define errores específicos mediante clases como CampoVacioException y UsuarioNoEncontradoException.
 
- Componentes Principales
+ # Componentes Principales
  
  1. Sistema de Login (LoginFrame)
 
@@ -54,7 +54,7 @@ CampoVacioException: Lanza error si el usuario deja campos vacíos.
 UsuarioNoEncontradoException: Lanza error si el usuario no existe o la contraseña no coincide.
 Permite una experiencia de usuario controlada y mensajes claros.
 
-📄 Archivos Generados
+# 📄 Archivos Generados
 Durante la ejecución, el sistema genera y utiliza los siguientes archivos:
 
 Archivo             Propósito
@@ -65,7 +65,7 @@ pacientes.txt	      Lista legible de pacientes registrados
 medicos.txt	        Lista legible de médicos y sus especialidades
 usuarios.txt	      Lista de usuarios autorizados con rol incluido
 
-🛡️ Manejo de Errores
+# 🛡️ Manejo de Errores
 
 El programa contempla los siguientes errores:
 
